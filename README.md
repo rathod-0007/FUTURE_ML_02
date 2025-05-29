@@ -98,9 +98,14 @@ The model is evaluated using the following metrics:
 | Model              | Units | Droupout Rate  |
 |-------------------|--------|----------------|
 | 1st LSTM layer    | 200   | 0.5  |
-| Random Forest      | 200   | 0.1   |
+| 2nd LSTM layer   | 200   | 0.1   |
 
 Best learning rate: 0.006098158336710077
+
+
+| Model              | Learning Rate    |
+|-------------------|--------|
+| LSTM            |  0.006098158336710077  |
 
 ---
 
@@ -108,17 +113,14 @@ Best learning rate: 0.006098158336710077
 ## 📈 Visual Output Example
 
 
-![Stock Closing Price History Plot]([https://github.com/rathod-0007/FUTURE_ML_01/blob/main/Sales%20Forecast.png?raw=true](https://github.com/rathod-0007/FUTURE_ML_02/blob/main/Stock%20Closing%20Price%20History.png?raw=true))  
+![Stock Closing Price History](https://github.com/rathod-0007/FUTURE_ML_02/blob/main/Stock%20Closing%20Price%20History.png?raw=true)  
 *Stock Closing Price History*
 
-![Actual vs Predicted Stock Prices Plot]([https://github.com/rathod-0007/FUTURE_ML_01/blob/main/Sales_Forecast.png?raw=true](https://github.com/rathod-0007/FUTURE_ML_02/blob/main/Actual%20vs%20Predicted.png?raw=true))  
+![Actual vs Predicted Stock Prices](https://github.com/rathod-0007/FUTURE_ML_02/blob/main/Actual%20vs%20Predicted.png?raw=true)  
 *Actual vs Predicted Stock Prices using LSTM*
 
-![7 Day Forecasted Stock Price Plot][(https://github.com/rathod-0007/FUTURE_ML_01/blob/main/RF%20Actual%20vs%20Predicted.png?raw=true](https://github.com/rathod-0007/FUTURE_ML_02/blob/main/Predict%20Next%20n_days%20Ahead.png?raw=true))  
+![7 Day Forecasted Stock Price](https://github.com/rathod-0007/FUTURE_ML_02/blob/main/Predict%20Next%20n_days%20Ahead.png?raw=true)  
 *7 Day Forecasted Stock Price*
-
-
-
 
 ---
 
